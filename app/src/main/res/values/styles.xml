@@ -1,0 +1,208 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme"></style>
+
+    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.Light"></style>
+
+    <!-- Tab Style -->
+
+
+    <style name="MyCustomTabText" parent="TextAppearance.AppCompat.Button">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_color_black</item>
+    </style>
+
+    <!-- Widget Style -->
+
+    <style name="ListView" parent="android:Widget.ListView">
+        <item name="android:cacheColorHint">#00000000</item>
+        <item name="android:divider">#e6e6e6</item>
+    </style>
+
+    <style name="Button" parent="android:Widget.Button">
+        <item name="android:textColor">@color/text_color_white</item>
+        <item name="android:textSize">@dimen/text_size_normal</item>
+        <item name="android:minHeight">@dimen/button_min_height</item>
+        <item name="android:minWidth">@dimen/button_min_width</item>
+    </style>
+
+
+
+
+    <style name="Spinner">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+
+
+    <!-- TextView Style -->
+
+
+    <style name="TextCommon">
+        <item name="android:textColor">@color/text_color_dark</item>
+        <item name="android:textSize">@dimen/text_size_normal</item>
+    </style>
+
+    <style name="TextCommon.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextCommon.Big">
+        <item name="android:textSize">@dimen/text_size_big</item>
+    </style>
+
+    <style name="TextCommon.Medium">
+        <item name="android:textSize">@dimen/text_size_medium</item>
+    </style>
+
+    <style name="TextCommon.Medium.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextCommon.Small">
+        <item name="android:textSize">@dimen/text_size_small</item>
+    </style>
+
+    <style name="TextCommon.Small.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextWhite">
+        <item name="android:textColor">@color/text_color_white</item>
+        <item name="android:textSize">@dimen/text_size_normal</item>
+    </style>
+
+    <style name="TextBlack">
+        <item name="android:textColor">@color/text_color_black</item>
+        <item name="android:textSize">@dimen/text_size_normal</item>
+    </style>
+
+    <style name="TextWhite.Medium">
+        <item name="android:textSize">@dimen/text_size_medium</item>
+    </style>
+
+    <style name="TextWhite.Small">
+        <item name="android:textSize">@dimen/text_size_small</item>
+    </style>
+
+    <style name="TextOrange">
+        <item name="android:textColor">@color/text_color_orange3</item>
+        <item name="android:textSize">@dimen/text_size_normal</item>
+    </style>
+
+    <style name="TextGrey">
+        <item name="android:textColor">@color/text_color_grey</item>
+        <item name="android:textSize">@dimen/text_size_normal</item>
+    </style>
+
+    <style name="TextOrange.Medium">
+        <item name="android:textSize">@dimen/text_size_medium</item>
+    </style>
+
+    <style name="TextFloatsLogin2">
+        <item name="android:textSize">@dimen/text_size_big</item>
+        <item name="android:textColor">@color/text_hint_login2</item>
+        <item name="android:textColorHint">@color/text_hint_login2</item>
+        <item name="android:textColorHighlight">@color/text_hint_login2</item>
+        <item name="android:textColorLink">@color/text_hint_login2</item>
+        <item name="colorControlNormal">@color/text_hint_login2</item>
+        <item name="colorControlActivated">@color/text_hint_login2</item>
+        <item name="colorControlHighlight">@color/text_hint_login2</item>
+    </style>
+    <style name="TextFloatsLogin">
+        <item name="android:textSize">@dimen/text_size_big</item>
+        <item name="android:textColor">@color/text_hint_login</item>
+        <item name="android:textColorHint">@color/text_hint_login</item>
+        <item name="android:textColorHighlight">@color/text_hint_login</item>
+        <item name="android:textColorLink">@color/text_hint_login</item>
+        <item name="colorControlNormal">@color/text_hint_login</item>
+        <item name="colorControlActivated">@color/text_hint_login</item>
+        <item name="colorControlHighlight">@color/text_hint_login</item>
+    </style>
+
+    <style name="TextFloatsRegister">
+        <item name="android:textSize">@dimen/text_size_big</item>
+        <item name="android:textColor">@color/text_color_white</item>
+        <item name="android:textColorHint">@color/text_color_white</item>
+        <item name="android:textColorHighlight">@color/text_color_white</item>
+        <item name="android:textColorLink">@color/text_color_white</item>
+        <item name="colorControlNormal">@color/text_color_white</item>
+        <item name="colorControlActivated">@color/text_color_white</item>
+        <item name="colorControlHighlight">@color/text_color_white</item>
+    </style>
+
+    <style name="TextFloatsWhite">
+        <item name="android:textSize">@dimen/text_size_big</item>
+        <item name="android:textColor">@color/text_color_white</item>
+        <item name="android:textColorHint">@color/text_color_white</item>
+        <item name="android:textColorHighlight">@color/text_color_white</item>
+        <item name="android:textColorLink">@color/text_color_white</item>
+    </style>
+
+    <style name="TextFloatsBlack">
+        <item name="android:textColor">@color/text_color_black</item>
+        <item name="android:textColorHint">@color/text_color_black</item>
+        <item name="android:textColorHighlight">@color/text_color_black</item>
+        <item name="android:textColorLink">@color/text_color_black</item>
+        <item name="android:textSize">@dimen/text_size_big</item>
+    </style>
+
+    <style name="ExpandedAppBar" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <style name="CollapsedAppBar" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/text_color_white</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="ExpandedAppBarPlus1" parent="@android:style/TextAppearance.Large">
+        <item name="android:textSize">15.5sp</item>
+        <item name="android:textColor">@color/text_color_white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:maxLines">5</item>
+        <item name="android:singleLine">false</item>
+    </style>
+
+    <style name="CollapsedAppBarPlus1" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">15.5sp</item>
+        <item name="android:textColor">@color/text_color_white</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:maxLines">5</item>
+        <item name="android:singleLine">false</item>
+    </style>
+
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@color/text_color_white</item>
+    </style>
+
+    <style name="toolbarStyleDetail" parent="@style/Widget.AppCompat.Toolbar">
+        <item name="titleTextColor">@color/transparent_black</item>
+    </style>
+
+
+    <style name="TextFloatsForm">
+        <item name="android:textSize">@dimen/abc_text_size_body_1_material</item>
+        <item name="android:textColor">@color/text_color_black</item>
+        <item name="android:textColorHint">@color/text_color_black</item>
+        <item name="android:textColorHighlight">@color/text_color_black</item>
+        <item name="android:textColorLink">@color/text_color_black</item>
+        <item name="colorControlNormal">@color/text_color_black</item>
+        <item name="colorControlActivated">@color/text_color_black</item>
+        <item name="colorControlHighlight">@color/text_color_black</item>
+    </style>
+
+</resources>

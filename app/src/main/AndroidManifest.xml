@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kranji.abcd">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".spalshscreen"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".huruf_indonesia" />
+        <activity android:name=".huruf_inggris">
+        </activity>
+        <activity android:name=".angka_indo" />
+        <activity android:name=".menu_bahasa" />
+        <activity android:name=".menu_mulai_indonesia" />
+        <activity android:name=".menu_mulai_inggris" />
+        <activity android:name=".angka_inggris"></activity>
+    </application>
+
+</manifest>
